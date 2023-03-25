@@ -1,0 +1,22 @@
+.link-address{
+  color:rgb(0,113,113);
+ }
+ .price-btn{
+  
+  color: rgb(0,118,0);
+ }
+ .text{
+   color: black;
+ }
+ .cart-btn{
+   background-color: rgb(255,216,20);
+   border:none;
+   border-radius: 3px;
+   cursor:pointer;
+ }
+ .buy-btn{
+   background-color:rgb(255,164,28);
+   border:none;
+   border-radius: 3px;
+   cursor:pointer;
+ }

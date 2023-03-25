@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+ <head>
+  <title>Learning About buttons</title>
+  <style>
+    .sub-btn{
+      background-color: rgb(205, 39, 39);
+      color:white;
+      border:none;
+      border-radius: 2px;
+      padding:7px 10px ;
+      font-size:medium;
+      font-weight:20px;
+      cursor:pointer;
+      transition: opacity 0.15s;
+    }
+    .sub-btn:hover{
+     background-color:rgb(71, 108, 120);
+     transform:translateY(-2px);
+     opacity:1;
+     box-shadow: 12px 12px 3px rgba(2 2 3 .12);
+    }
+
+    .join-btn{
+     background-color:rgb(249, 247, 247) ;
+     color:rgb(58, 58, 227);
+     border:inset;
+     height:33px;
+     width:50px;
+     margin-left: 10px;
+     cursor: pointer;
+     transition: border-radius .12s;
+    }
+    .join-btn:hover{background-color: lightgreen;
+    border-radius: 30px;}
+
+    .tweet-btn{
+      background-color: blue;
+      color:white;
+      font-size: bold;
+      border:none;
+      cursor:pointer;
+      margin-left: 10px;
+      width:50px;
+      height:30px;
+      border-radius: 100px;
+     
+    }
+    .tweet-btn:hover{
+      border-top-left-radius:15px;
+      border-bottom-right-radius:15px;
+    }
+   
+    .toolbar{
+      background-color: rgb(224, 215, 215);
+      border:20px;
+      height:30px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      flex:1;
+    }
+    .text-para{
+      text-decoration:darkslategray;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align:var(10px);
+      cursor:pointer;
+       border:dotted;
+    }
+  </style>
+
+ </head>
+<body>
+
+  <div class="toolbar">
+    <p class="text-para">
+      <strong>percSimpleDev</strong>
+    </p>
+  </div>
+
+  <button class="sub-btn">SUBSCRIBE</button>
+  <button class="join-btn">JOIN</button>
+  <button class="tweet-btn">Tweet</button>
+
+</body>
+</html>
+
+
